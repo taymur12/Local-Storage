@@ -1,5 +1,5 @@
 // Add Data into LocalSore
-const AddTodb = id => {
+    const AddTodb = id => {
     const store_Cart = getStoredb()
     if (id in store_Cart) {
         store_Cart[id] = store_Cart[id] + 1
